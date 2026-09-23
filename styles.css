@@ -3,4 +3,19 @@
     justify-content: space-between;
     align-items: center;
     border: 1px solid black;
+    padding: 20px;
+}
+.nav {
+    display: flex;
+    gap: 10px;
+}
+.nav a {
+    text-decoration: underline;
+    color: navy;
+}
+
+.logo {
+    color: navy;
+    font-size: 26px;
+    font-weight: bold;
 }
