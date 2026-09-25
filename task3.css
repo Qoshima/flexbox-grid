@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+}
+.nav {
+    display: flex;
+    gap: 10px;
+}
+.nav a {
+    text-decoration: underline;
+    color: navy;
+}
+
+.logo {
+    color: navy;
+    font-size: 26px;
+    font-weight: bold;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.gallery-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.gallery-item {
+    position: relative;
+}
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: center;
+
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.gallery-item:hover .caption {
+    opacity: 1;
+}
