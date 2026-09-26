@@ -19,3 +19,34 @@
     font-size: 26px;
     font-weight: bold;
 }
+
+.portfolio-layout {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+.project-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 20px;
+}
+.project-card button {
+    margin-top: auto;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.info {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.footer {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
