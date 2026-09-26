@@ -23,6 +23,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    padding: 20px;
 }
 .gallery-item img {
     width: 100%;
@@ -49,4 +50,11 @@
 
 .gallery-item:hover .caption {
     opacity: 1;
+}
+
+body {
+    margin: 0;
+}
+h1 {
+    padding: 20px;
 }

@@ -24,12 +24,18 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 20px;
+    padding: 20px;
 }
 .project-card {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
     padding: 20px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.03);
 }
 .project-card button {
     margin-top: auto;
@@ -45,8 +51,12 @@
 }
 
 .footer {
-    border: 1px solid black;
+    margin-top: 20px;
     padding: 20px;
     text-align: center;
-    margin-top: 20px;
+    background-color: navy;
+    color: white;
+}
+body {
+    margin: 0;
 }
